@@ -44,7 +44,7 @@ public class LoginPageTest extends TestBase{
 		
 		homepage.clickonloginlink();
 		String title = loginpage.validateLoginPageTitle();
-		Assert.assertEquals(title, "My Account - Login or Signup - Fastrac");
+		Assert.assertEquals(title, "My Account - Login or Signup - Fastrack");
 	}
 	
 	
