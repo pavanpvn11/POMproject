@@ -53,7 +53,15 @@ public class LoginPageTest extends TestBase{
 		
 		
 		homepage.clickonloginlink();
-		homepage = loginpage.login(prop.getProperty("username"), prop.getProperty("password"));
+		//homepage = loginpage.login(prop.getProperty("username"), prop.getProperty("password"));
+		
+		
+		//reading from jenkins
+		
+		System.out.println(System.getProperty("username"));
+		System.out.println(System.getProperty("password"));
+		homepage = loginpage.login(System.getProperty("username"), System.getProperty("password"));
+		
 		TestUtil.Thread_Sleep();
 	     String title = homepage.verifyHomePageTitle();
 		 Assert.assertEquals(title, "Shop Fashion Accessories For Men, Women & Kids - Fastrack");
