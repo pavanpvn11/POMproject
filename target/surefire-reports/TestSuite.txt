@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 20, Failures: 6, Errors: 0, Skipped: 14, Time elapsed: 1.721 s <<< FAILURE! - in TestSuite
+setUp(com.titan.qa.testcases.CartPageTest)  Time elapsed: 0.689 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.titan.qa.testcases.CartPageTest.setUp(CartPageTest.java:37)
+
+setUp(com.titan.qa.testcases.CheckoutPageTest)  Time elapsed: 0.694 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.titan.qa.testcases.CheckoutPageTest.setUp(CheckoutPageTest.java:37)
+
+setUp(com.titan.qa.testcases.HomePageTest)  Time elapsed: 0.695 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.titan.qa.testcases.HomePageTest.setUp(HomePageTest.java:31)
+
+setUp(com.titan.qa.testcases.LoginPageTest)  Time elapsed: 0.695 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.titan.qa.testcases.LoginPageTest.setUp(LoginPageTest.java:34)
+
+setUp(com.titan.qa.testcases.PLPPageTest)  Time elapsed: 0.695 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.titan.qa.testcases.PLPPageTest.setUp(PLPPageTest.java:34)
+
+CheckoutPageCODTest(com.titan.qa.testcases.CheckoutPageTest)  Time elapsed: 0.712 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Cannot inject @Test annotated Method [CheckoutPageCODTest] with [class java.lang.String, class java.lang.String, class java.lang.String, class java.lang.String, class java.lang.String, class java.lang.String, class java.lang.String, class java.lang.String, class java.lang.String].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+
