@@ -124,7 +124,7 @@
         <configuration>
           
           <systempropertyVariables>
-              <url>${url}</url>
+              <url> ${project.url}</url>
          </systempropertyVariables>
             
             
