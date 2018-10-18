@@ -124,11 +124,7 @@
         <configuration>
           
           <systempropertyVariables>
-          
               <url>${url}</url>
-              <username>${username}</username>
-              <password>${password}</password>
-    
          </systempropertyVariables>
             
             
