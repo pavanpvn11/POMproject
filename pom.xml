@@ -123,6 +123,14 @@
         <version>2.22.1</version>
         <configuration>
           
+          <systempropertyVariables>
+          
+              <url>${url}</url>
+              <username>${username}</username>
+              <password>${password}</password>
+    
+         </systempropertyVariables>
+            
             
             <suiteXmlFiles>
  <!-- Need to pass testng.xml files as argument from command line -->
