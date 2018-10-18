@@ -69,14 +69,10 @@ public class TestBase {
 		
 		
 		
-	//	driver.get(prop.getProperty("url"));
+		driver.get(prop.getProperty("url"));
 		
 		
 		
-		//reading from jenkins
-		
-		System.out.println(System.getProperty("url"));
-		driver.get(System.getProperty("url"));
 		
 	}
 	
