@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Titan Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+    <listener class-name="com.titan.qa.util.CustomListener"/>
+  </listeners>
+  <test name="Titan Auto App Test Cases(failed)">
+    <classes>
+      <class name="com.titan.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="loginPageTitleTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.titan.qa.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Titan Auto App Test Cases(failed) -->
+</suite> <!-- Failed suite [Titan Automation Test Suite] -->

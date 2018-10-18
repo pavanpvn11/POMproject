@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Titan Automation Test Sanity Suite]">
+  <listeners>
+    <listener class-name="Analyzer.RetryTransformer"/>
+  </listeners>
+  <test name="Titan Auto App Sanity Test Cases(failed)">
+    <classes>
+      <class name="com.titan.qa.testcases.CheckoutPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="CheckouttpageTitleTest"/>
+        </methods>
+      </class> <!-- com.titan.qa.testcases.CheckoutPageTest -->
+    </classes>
+  </test> <!-- Titan Auto App Sanity Test Cases(failed) -->
+</suite> <!-- Failed suite [Titan Automation Test Sanity Suite] -->
